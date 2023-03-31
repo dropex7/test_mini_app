@@ -13,7 +13,7 @@ import Tabs from "./сomponents/Tabs";
 import ScreensWrapper from "./сomponents/ScreensWrapper";
 import { routes } from "./routes";
 import { UserContext } from "./context/UserContext";
-import useUser from "./useUser";
+import useUser from "./hooks/useUser";
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState(routes[0].id);
